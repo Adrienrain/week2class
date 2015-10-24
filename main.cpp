@@ -2,8 +2,34 @@
 
 using namespace std;
 
+
+class Student {
+
+private:
+    string name;
+//    int numClasses;
+//    string[] classList[numClasses];
+
+
+public:
+    void setName(string x){
+    name = x;}
+
+    string getName(){
+    return name;}
+
+
+};
+
 int main()
 {
-    cout << "Hello world!" << endl;
+    Student bloop;
+    bloop.setName("Katelyn");
+    cout << bloop.getName();
+
+
+
+
+
     return 0;
 }
