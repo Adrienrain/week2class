@@ -8,7 +8,7 @@ private:
     string name;
 //    int numClasses;
 //    string[] classList[numClasses];
-// moo test
+// moo test2
 
 
 public:
